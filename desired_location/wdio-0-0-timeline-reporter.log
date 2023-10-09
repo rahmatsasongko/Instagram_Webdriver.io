@@ -1,0 +1,104 @@
+{
+  "start": "2023-09-25T15:15:12.107Z",
+  "end": "2023-09-25T15:15:42.676Z",
+  "capabilities": {
+    "platform": "LINUX",
+    "webStorageEnabled": false,
+    "takesScreenshot": true,
+    "javascriptEnabled": true,
+    "databaseEnabled": false,
+    "networkConnectionEnabled": true,
+    "locationContextEnabled": false,
+    "warnings": {},
+    "desired": {
+      "platformName": "Android",
+      "platformVersion": "13",
+      "automationName": "UIAutomator2",
+      "appPackage": "com.instagram.android",
+      "appActivity": "com.instagram.mainactivity.MainActivity",
+      "noReset": true,
+      "autoGrantPermissions": true,
+      "forceAppLaunch": true
+    },
+    "platformName": "Android",
+    "platformVersion": "13",
+    "automationName": "UIAutomator2",
+    "appPackage": "com.instagram.android",
+    "appActivity": "com.instagram.mainactivity.MainActivity",
+    "noReset": true,
+    "autoGrantPermissions": true,
+    "forceAppLaunch": true,
+    "deviceName": "RRCW504RA0A",
+    "deviceUDID": "RRCW504RA0A",
+    "deviceApiLevel": 33,
+    "deviceScreenSize": "1080x2340",
+    "deviceScreenDensity": 420,
+    "deviceModel": "SM-A546E",
+    "deviceManufacturer": "samsung",
+    "pixelRatio": 2.625,
+    "statBarHeight": 80,
+    "viewportRect": {
+      "left": 0,
+      "top": 80,
+      "width": 1080,
+      "height": 2054
+    },
+    "sessionId": "f6ec91bb-57b3-47a2-bb61-c68e3156900c"
+  },
+  "host": "0.0.0.0",
+  "port": 4723,
+  "baseUrl": "",
+  "framework": "mocha",
+  "duration": 30569,
+  "suites": [
+    {
+      "title": "Test Instagram",
+      "duration": 30167,
+      "start": "2023-09-25T15:15:12.113Z",
+      "end": "2023-09-25T15:15:42.280Z",
+      "tests": [
+        {
+          "title": "Click menu search",
+          "start": "2023-09-25T15:15:12.113Z",
+          "end": "2023-09-25T15:15:15.259Z",
+          "duration": 3146,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Search username",
+          "start": "2023-09-25T15:15:15.260Z",
+          "end": "2023-09-25T15:15:22.234Z",
+          "duration": 6974,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Follow user",
+          "start": "2023-09-25T15:15:22.235Z",
+          "end": "2023-09-25T15:15:27.155Z",
+          "duration": 4920,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Send message",
+          "start": "2023-09-25T15:15:27.155Z",
+          "end": "2023-09-25T15:15:42.279Z",
+          "duration": 15124,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///D:/QA%20Intermediate/Webdriver.io/InstagramWebdriverio/tests/specs/TC_Follow.spec.js"
+  ],
+  "state": {
+    "passed": 4,
+    "failed": 0,
+    "skipped": 0
+  }
+}
